@@ -1,6 +1,6 @@
 # Extracted Net Names
 
-Net names below were extracted from printable strings inside `Alvi_Routing.brd`. They represent likely signal, power, and test-point nets, but the list is not exhaustive and should be verified in Altium Designer.
+Net names below were extracted from printable strings inside `Alvi_Routing.brd`. They represent likely signal, power, and test-point nets, but the list is not exhaustive and should be verified in Cadence Allegro.
 
 ## Power and Ground
 
@@ -64,4 +64,4 @@ Many additional strings in the file are component package names, padstack dimens
 
 ## Verification
 
-For a complete and accurate netlist, open `Alvi_Routing.brd` in Altium Designer and export the netlist or PCB net report.
+For a complete and accurate netlist, open `Alvi_Routing.brd` in Cadence Allegro and export the netlist or PCB net report.

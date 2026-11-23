@@ -1,6 +1,6 @@
 # Extracted Component Designators
 
-The following designators were extracted by scanning printable strings inside `Alvi_Routing.brd`. This is **not** a verified BOM; it may include padstack names, package names, and duplicate string references. Use Altium Designer to confirm the actual placed components.
+The following designators were extracted by scanning printable strings inside `Alvi_Routing.brd`. This is **not** a verified BOM; it may include padstack names, package names, and duplicate string references. Use Cadence Allegro to confirm the actual placed components.
 
 ## Summary by Prefix
 
@@ -102,4 +102,4 @@ Pins `P1_1` through `P1_18`, `P2_1` through `P2_18`, etc. (72 total extracted).
 
 - The `D` prefix count is very high because many connector pins are labeled with `D` followed by multi-digit numbers (e.g., `D10101`–`D10116`).
 - Package names such as `C0402`, `C0603`, `R0603`, and `FB0805` appear in the file as padstack/footprint references, not necessarily placed components.
-- Always cross-check with the Altium schematic and PCB editor.
+- Always cross-check with the Cadence Allegro schematic and PCB Editor.

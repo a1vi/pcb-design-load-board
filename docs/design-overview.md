@@ -60,4 +60,4 @@ Observed power-related net names include:
 
 ## Limitations
 
-This overview is based on string extraction from the binary `.brd` file. Exact component values, net connectivity, and dimensions must be verified in Altium Designer.
+This overview is based on string extraction from the binary `.brd` file. Exact component values, net connectivity, and dimensions must be verified in Cadence Allegro.

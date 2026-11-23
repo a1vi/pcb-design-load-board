@@ -2,18 +2,18 @@
 
 ## `Alvi_Routing.brd`
 
-- **Type:** Altium Designer PCB board file (binary)
+- **Type:** Cadence Allegro PCB board file (binary)
 - **Size:** ~6.85 MB
 - **Description:** Contains the routed printed circuit board layout, including footprints, tracks, vias, nets, and design rules. This is the primary design file in the repository.
-- **Software required:** Altium Designer (or Altium 365 Viewer / CircuitMaker for read-only viewing).
+- **Software required:** Cadence Allegro PCB Editor (or Allegro View / free Allegro viewer for read-only viewing).
 - **Notes:** The file is binary and cannot be meaningfully diffed in Git. Generated documentation in `docs/` was produced by extracting printable strings from this file.
 
 ## `pcb-layout.jpg`
 
 - **Type:** JPEG image
 - **Size:** ~275 KB
-- **Description:** Rendered visual of the PCB layout, likely a screenshot or export from Altium Designer showing the board routing, component placement, and silkscreen.
-- **Purpose:** Provides a quick visual reference for the board without opening Altium Designer.
+- **Description:** Rendered visual of the PCB layout, likely a screenshot or export from Cadence Allegro showing the board routing, component placement, and silkscreen.
+- **Purpose:** Provides a quick visual reference for the board without opening Cadence Allegro.
 
 ## `README.md`
 
