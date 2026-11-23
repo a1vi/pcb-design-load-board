@@ -8,7 +8,7 @@
 - **Software required:** Altium Designer (or Altium 365 Viewer / CircuitMaker for read-only viewing).
 - **Notes:** The file is binary and cannot be meaningfully diffed in Git. Generated documentation in `docs/` was produced by extracting printable strings from this file.
 
-## `WhatsApp Image 2026-11-11 at 6.42.29 PM.jpeg`
+## `pcb-layout.jpg`
 
 - **Type:** JPEG image
 - **Size:** ~275 KB

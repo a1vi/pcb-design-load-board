@@ -1,13 +1,29 @@
 # PCB Design Load Board
 
-This repository contains the Altium Designer PCB board file for a **load board / test fixture** design.
+![PCB Layout](pcb-layout.jpg)
+
+This repository contains the Altium Designer PCB board file for a **4-site load board / test fixture**.
+
+## Design Description
+
+The board is a **load board** used to interface automated test equipment with devices under test (DUTs). It routes power, ground, and high-speed signals from the tester to four independent test sites (`SITE1`–`SITE4`). Each site has a dedicated test unit block (`UT1`–`UT4`) with power/return pins, +5 V rails, and read/write channel pins (`URW00`–`URW06`, `UW07`–`UW15`).
+
+Key features visible from the extracted design data:
+
+- **2-layer** board (units in mils)
+- **Power rails:** `+5V`, `VCCK`, `VCC12A_PLL`, `VCC3IO_1/2`, `VCC33A_ADC`
+- **Ground nets:** `AGND`, `DGND`, `GND1`, `GND2`
+- **Differential pairs:** `+DS1/-DS1` through `+DS4/-DS4`
+- **Connector groups:** `G1`–`G4` and `P1`–`P4`
+- **Test points:** `TP01`, `TP040`, plus named points for `VCCK`, `VCC3IO_1`, and `VCC12A_PLL`
+- **Mechanical:** `NUT1`–`NUT22` mounting hardware and board-to-board connectors (`BDB`, `LDB`, `LRB`)
 
 ## Files
 
 | File | Description |
 |------|-------------|
 | `Alvi_Routing.brd` | Altium Designer PCB board file (`.brd`) containing the routed layout |
-| `WhatsApp Image 2026-11-11 at 6.42.29 PM.jpeg` | Rendered image of the PCB layout |
+| `pcb-layout.jpg` | Rendered image of the PCB layout |
 | `docs/` | Generated documentation extracted from the board file |
 
 ## Opening the Design
@@ -17,6 +33,7 @@ The `.brd` file requires **Altium Designer** (or a compatible Altium Viewer) to 
 ## Repository Contents
 
 - `Alvi_Routing.brd` — source board file
+- `pcb-layout.jpg` — visual reference of the routed board
 - `docs/design-overview.md` — high-level design summary
 - `docs/components.md` — extracted component designators grouped by prefix
 - `docs/nets.md` — extracted net names and power/test signals
