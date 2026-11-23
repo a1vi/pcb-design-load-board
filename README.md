@@ -2,15 +2,15 @@
 
 ![PCB Layout](pcb-layout.jpg)
 
-This repository contains the Cadence Allegro PCB board file for a **4-site load board / test fixture**.
+This repository contains the Cadence Allegro PCB board file for a **single-sided load board / test fixture**.
 
 ## Design Description
 
-The board is a **load board** used to interface automated test equipment with devices under test (DUTs). It routes power, ground, and high-speed signals from the tester to four independent test sites (`SITE1`–`SITE4`). Each site has a dedicated test unit block (`UT1`–`UT4`) with power/return pins, +5 V rails, and read/write channel pins (`URW00`–`URW06`, `UW07`–`UW15`).
+The board is a **single-sided load board** used to interface automated test equipment with a device under test (DUT). It routes power, ground, and high-speed signals from the tester to the board's test unit blocks (`UT1`–`UT4`), each with power/return pins, +5 V rails, and read/write channel pins (`URW00`–`URW06`, `UW07`–`UW15`).
 
 Key features visible from the extracted design data:
 
-- **2-layer** board (units in mils)
+- **Single-sided** board — copper on one side only (units in mils)
 - **Power rails:** `+5V`, `VCCK`, `VCC12A_PLL`, `VCC3IO_1/2`, `VCC33A_ADC`
 - **Ground nets:** `AGND`, `DGND`, `GND1`, `GND2`
 - **Differential pairs:** `+DS1/-DS1` through `+DS4/-DS4`

@@ -28,7 +28,7 @@ The following designators were extracted by scanning printable strings inside `A
 | `R` | 1 | Resistor package (`R0603`) |
 | `RD` | 9 | Resistor / DUT references |
 | `SB` | 3 | Shield / bracket (`SB13`–`SB15`) |
-| `SITE` | 4 | Test sites (`SITE1`–`SITE4`) |
+| `SITE` | 4 | Site references (`SITE1`–`SITE4`) |
 | `SO` | 1 | Stiffener / outline (`SO8_215X127MM`) |
 | `SQ` | 5 | Square / keep-out / fiducial references |
 | `TP` | 2 | Test points (`TP01`, `TP040`) |

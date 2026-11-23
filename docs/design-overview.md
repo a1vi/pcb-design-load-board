@@ -2,16 +2,16 @@
 
 ## Design Type
 
-The board appears to be a **load board / test fixture** used to interface a test system with one or more devices under test (DUTs). Evidence includes:
+The board appears to be a **single-sided load board / test fixture** used to interface a test system with a device under test (DUT). Evidence includes:
 
-- Multiple test sites: `SITE1` through `SITE4`
+- Test site references: `SITE1` through `SITE4`
 - Test unit blocks: `UT1` through `UT4`, each with dedicated signal pins
 - Groups of connector pins (`G1`–`G4`, `P1`–`P4`)
 - Dedicated test points for power rails (`TP_VCCK`, `TP_VCC3IO_1`, `TP_VCC12A_PLL`)
 
 ## Layer Stackup
 
-Strings embedded in the file indicate a **2-layer** board (`Layers: 2`). Units appear to be in **mils**.
+The board is **single-sided** — copper on one side only. Units appear to be in **mils**.
 
 ## Key Functional Blocks
 
@@ -22,7 +22,7 @@ Each `UT` block has pins for:
 - Power / return: `PDCF`, `PDCS`, `PGDS`, `PGRD`, `UP5V`
 - Read/write channels: `URW00`–`URW06`, `UW07`–`UW15`
 
-This suggests four independent test channels or device sockets.
+This suggests independent test channels or device sockets.
 
 ### Connector / Interface Groups
 
